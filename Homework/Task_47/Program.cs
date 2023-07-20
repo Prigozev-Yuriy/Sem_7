@@ -18,7 +18,6 @@ double[,] GetMatrix(int m, int n)
     }
     return matrix;
 }
-
 void PrintMatrix(double[,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
@@ -30,7 +29,6 @@ void PrintMatrix(double[,] matrix)
         Console.WriteLine();
     }
 }
-
 Console.Write("Введите количество строк: ");
 int rows = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите количество cтолбцов: ");
